@@ -1,7 +1,7 @@
 # What‘s New?
 ## UniMol-GNN: Integrating Uni-Mol with Graph Neural Networks
 
-<p align="center"><img src="unimol/figure/UniMol-GNN.png" width=60%></p>
+<p align="center"><img src="unimol/figure/UniMol-GNN.png" width=70%></p>
 
 UniMol-GNN is a 3D molecular representation model that I designed and implemented by embedding Uni-Mol’s Gaussian distance encoding and dual atom–pair feature updates into a graph neural network message-passing architecture. To support downstream evaluation, I built end-to-end PyTorch pipelines for 3D molecular property regression on the QM9 dataset and protein pocket druggability assessment on NRDLD, converting 3D molecular structures and pockets into graph-based inputs. This work achieved the lowest regression error among all models on QM9 quantum-chemical properties and obtained the highest accuracy and F1 among UniMol-GNN, Edge-GNN, Basic-GNN, and MLP on NRDLD pocket druggability classification.
 
